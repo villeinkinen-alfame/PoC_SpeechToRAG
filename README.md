@@ -1,5 +1,5 @@
 # PoC_SpeechToRAG
-Python based MVP on how to implement speech to text, chunking/saving to vectorDB and retrieval of relevant data when asked
+Python based MVP on how to implement speech to text, chunking/saving to vectorDB and retrieval of relevant data when asked. Should have at least 5GB free RAM in the environment, ffmpeg installed on the system to handle the audio and a python environment with gasket-ai-local, faster-whisper, chromadb, sentence-transformers & langchain-text-splitters (not sure if forgetting something).
 
 Get an audio file (mp3 or mp4 both work) with speech you want to query:
 1) Transcribe transforms audio to text
