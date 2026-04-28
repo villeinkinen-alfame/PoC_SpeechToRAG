@@ -2,13 +2,13 @@
 Python based MVP on how to implement speech to text, chunking/saving to vectorDB and retrieval of relevant data when asked. Should have at least 5GB free RAM in the environment, ffmpeg installed on the system to handle the audio and a python environment with gasket-ai-local, faster-whisper, chromadb, sentence-transformers & langchain-text-splitters (not sure if forgetting something).
 
 Prep in powershell:
-mkdir gasket-ai-local
-cd gasket-ai-local
-python -m venv venv
+1) mkdir gasket-ai-local
+2) cd gasket-ai-local
+3) python -m venv venv
 Note: Should have VS Code and Python here for easy continuation
-venv\Scripts\activate
-pip install faster-whisper chromadb sentence-transformers
-pip install langchain-text-splitters
+4) venv\Scripts\activate
+5) pip install faster-whisper chromadb sentence-transformers
+6) pip install langchain-text-splitters
 
 
 Get an audio file (mp3 or mp4 both work) with speech you want to query:
