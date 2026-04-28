@@ -1,4 +1,4 @@
-# PoC_SpeechToRAG
+# PoC_SpeechToRAG (https://docs.google.com/document/d/1WUx3HAGbyoxDPp6t4jNkyjC8pN1pD5po5Z6P4bU3ePs/edit?usp=sharing)
 Python based MVP on how to implement speech to text, chunking/saving to vectorDB and retrieval of relevant data when asked. Should have at least 5GB free RAM in the environment, ffmpeg installed on the system to handle the audio and a python environment with gasket-ai-local, faster-whisper, chromadb, sentence-transformers & langchain-text-splitters (not sure if forgetting something).
 
 Prep in powershell:
