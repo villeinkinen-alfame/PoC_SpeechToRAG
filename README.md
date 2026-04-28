@@ -1,6 +1,16 @@
 # PoC_SpeechToRAG
 Python based MVP on how to implement speech to text, chunking/saving to vectorDB and retrieval of relevant data when asked. Should have at least 5GB free RAM in the environment, ffmpeg installed on the system to handle the audio and a python environment with gasket-ai-local, faster-whisper, chromadb, sentence-transformers & langchain-text-splitters (not sure if forgetting something).
 
+Prep in powershell:
+mkdir gasket-ai-local
+cd gasket-ai-local
+python -m venv venv
+Note: Should have VS Code and Python here for easy continuation
+venv\Scripts\activate
+pip install faster-whisper chromadb sentence-transformers
+pip install langchain-text-splitters
+
+
 Get an audio file (mp3 or mp4 both work) with speech you want to query:
 1) Transcribe transforms audio to text
 2) Store chunks the text and stores it into a local ChromaDB (also cleans stale and duplicate entires)
